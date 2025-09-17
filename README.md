@@ -53,10 +53,12 @@ No environment variables are required for basic usage.
 If you later add features like image CDNs or rate-limited proxies, document them here.
 
 ## 🗂️ Project Structure
+```bash
 src/
  ├── components/       # UI components (Card, SearchBar, TypeFilter, etc.)
  ├── App.jsx
  └── main.jsx
+```
 
 ## 🚀 Deployment (Vercel)
 This app is deployed on Vercel.
