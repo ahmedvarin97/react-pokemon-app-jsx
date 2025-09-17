@@ -1,12 +1,69 @@
-# React + Vite
+# ⚡ React Pokémon App (JSX)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Pokémon browser built with **React**, featuring search, type filters, and clean, responsive UI powered by the free **PokéAPI**.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo  
+👉 https://react-pokemon-app-jsx.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Repository  
+👉 https://github.com/ahmedvarin97/react-pokemon-app-jsx.git
 
-## Expanding the ESLint configuration
+## ✨ Features
+- 🔎 **Search Pokémon** by name with instant feedback  
+- 🏷️ **Filter by Type** (e.g., Fire, Water, Grass)  
+- 📄 **Detail View** with sprite, stats, and abilities  
+- 📱 **Responsive UI** for mobile, tablet, and desktop  
+- ⚡ **Fast & Lightweight** front-end (client-side fetch from PokéAPI)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Note: Data is fetched from the public PokéAPI. No API key is required.
+
+## 🧰 Tech Stack
+- **Frontend:** React (JSX)  
+- **Build Tool:** Vite (or CRA—depending on the repo setup)  
+- **Styling:** CSS / Tailwind (based on repo)  
+- **API:** PokéAPI (https://pokeapi.co)
+
+## 📦 Getting Started
+
+### Prerequisites
+- **Node.js** v18+  
+- **npm** v9+ (or **yarn/pnpm**)
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/ahmedvarin97/react-pokemon-app-jsx.git
+cd react-pokemon-app-jsx
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev 
+```
+
+## 🏗️ Build for Production
+```bash
+npm run build
+npm run preview
+```
+
+## ⚙️ Environment Variables
+No environment variables are required for basic usage.
+If you later add features like image CDNs or rate-limited proxies, document them here.
+
+## 🗂️ Project Structure
+src/
+ ├── components/       # UI components (Card, SearchBar, TypeFilter, etc.)
+ ├── App.jsx
+ └── main.jsx
+
+## 🚀 Deployment (Vercel)
+This app is deployed on Vercel.
+- Push the repo to GitHub
+- Import the project in Vercel
+- Build Command: npm run build
+- Output Directory: dist
+- Set env vars if you add any later
+
+## 🖼️ Screenshots
