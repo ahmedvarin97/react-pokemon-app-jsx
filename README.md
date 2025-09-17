@@ -67,3 +67,5 @@ This app is deployed on Vercel.
 - Set env vars if you add any later
 
 ## 🖼️ Screenshots
+<img width="1905" height="2738" alt="ead9e2f1-b97c-43f6-8d2b-14d33bddaa83" src="https://github.com/user-attachments/assets/e93b5915-aefe-41dd-a38f-b2537421cc68" />
+
