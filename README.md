@@ -10,7 +10,6 @@ A simple Pokémon browser built with **React**, featuring search, type filters, 
 
 ## ✨ Features
 - 🔎 **Search Pokémon** by name with instant feedback  
-- 🏷️ **Filter by Type** (e.g., Fire, Water, Grass)  
 - 📄 **Detail View** with sprite, stats, and abilities  
 - 📱 **Responsive UI** for mobile, tablet, and desktop  
 - ⚡ **Fast & Lightweight** front-end (client-side fetch from PokéAPI)
